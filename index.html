@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <title>BootStrap</title>
+</head>
+
+<body>
+  <br>
+  <div class="container">
+    <p class="fs-1">TEXT & Color</p><hr>
+    <div class="row"> 
+      <!-- Font weight and italics: https://getbootstrap.com/docs/5.1/utilities/text/ -->
+      <div class="col">
+        <p class="text-center mt-1">Text Style-1</p>
+        <p class="text-center mt-1">Text Style-2</p>
+        <p class="text-center mt-1">Text Style-3</p>
+        <p class="text-center mt-1">Text Style-4</p>
+      </div>
+
+      <!-- Text Reset color and decoration: https://getbootstrap.com/docs/5.1/utilities/text/ -->
+      <div class="col">
+        <p class="text-center mt-1">Text decoration-1</p> 
+        <p class="text-center mt-1">Text decoration-2</p> 
+        <a href="#"><p class="text-center mt-1">Text decoration-3</p></a>
+        <a href="#"><p class="text-center mt-1">Text decoration-4</p></a>
+      </div>
+
+      <!-- Colors: https://getbootstrap.com/docs/5.1/utilities/colors/ -->
+      <div class="col">
+        <p class="text-center mt-1">Text Colors-1</p>
+        <p class="text-center mt-1">Text Colors-2</p>
+        <p class="text-center mt-1">Text Colors-3</p>
+        <p class="text-center mt-1">Text Colors-4</p>
+      </div>
+
+      <!-- Background color: https://getbootstrap.com/docs/5.1/utilities/background/ -->
+      <div class="col">
+        <p class="text-center mt-1">Background Colors-1</p>
+        <p class="text-center mt-1">Background Colors-2</p>
+        <p class="text-center mt-1">Background Colors-3</p>
+        <p class="text-center mt-1">Background Colors-4</p>
+      </div>
+
+      <!-- span Badges: https://getbootstrap.com/docs/5.1/components/badge/ -->
+      <div class="col">
+        <p class="text-center mt-1">Span & Badge-1<span> new</span></p>
+        <p class="text-center mt-1">Span & Badge-2<span> new</span></p>
+        <div class="offset-sm-2 mb-3"><button type="button">Span & Badge-3<span> 999</span></button></div>
+        <div class="offset-sm-2"><button type="button">Span & Badge-4<span> 999</span></button></div>
+      </div>
+    </div><hr>
+  </div><br>
+
+  <div class="container">
+    <p class="fs-1">Form Control</p><hr>
+    <form action="" method="get">
+        <!-- Input Group: https://getbootstrap.com/docs/5.1/forms/input-group/ -->
+        <label for="username">이름</label>
+        <input class="me-5" type="text" id="username" name="username" size="20" maxlength="5">
+        <label for="pwd">비밀번호 입력</label>
+        <input class="me-5" type="password" name="pwd" id="pwd">
+        <label for="filedown">파일</label>
+        <input class="me-5" type="file" name="fileDown" id="filedown">
+        <br><br>
+
+        <!-- Check Box: https://getbootstrap.com/docs/5.1/forms/checks-radios/ -->
+        <div>
+          <input type="checkbox" name="fruit1" id="apple" value="apple" checked>
+          <label for="apple"> 사과 </label>
+        </div>
+        <div>
+          <input type="checkbox" name="fruit2" id="banana" value="banana">
+          <label for="banana"> 바나나 </label>
+        </div>
+        <div>
+          <input type="checkbox" name="fruit3" id="mango" value="mango">
+          <label for="mango"> 망고 </label>
+        </div><br>
+
+        <!-- Select: https://getbootstrap.com/docs/5.1/forms/select/ -->
+        <select id="car_list" name="cars" size="1">
+          <option selected value="hyundai">HYUNDAI</option>
+          <option value="kia">KIA</option>
+          <option value="gm">GM</option>
+          <option value="bmw">BMW</option>
+          <option value="benz">BENZ</option>
+        </select><br><br>
+        
+        <!-- Button: https://getbootstrap.com/docs/5.1/components/buttons/ -->
+        <button type="button" value="button-1"> button-1 </button>
+        <button type="button" value="button-2"> button-2 </button>
+        <button type="button" value="button-3"> button-3 </button>
+        <button type="button" value="button-4"> button-4 </button>
+    </form><hr> 
+  </div>
+</body>
+</html>
